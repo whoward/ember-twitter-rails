@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: twitter_development
+  pool: 5
+  username: postgres
+  password: cloud9isawesome
+  
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  database: twitter_test
+  pool: 5
+  username: postgres
+  password: cloud9isawesome
