@@ -8,4 +8,8 @@ class User < ActiveRecord::Base
   validates :name, presence: true
   
   validates :avatar_url, presence: true
+  
+  def guest?
+    false
+  end
 end
