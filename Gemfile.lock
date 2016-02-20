@@ -83,6 +83,7 @@ GEM
     puma (2.16.0)
     rack (2.0.0.alpha)
       json
+    rack-cors (0.4.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.0.beta2)
@@ -157,6 +158,7 @@ DEPENDENCIES
   pg
   pry-byebug
   puma
+  rack-cors
   rails (>= 5.0.0.beta2, < 5.1)
   rspec-its
   rspec-rails

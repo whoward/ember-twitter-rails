@@ -1,5 +1,5 @@
 class TweetSerializer < ActiveModel::Serializer
-  attributes :id, :text
+  attributes :id, :text, :created_at
   attribute :user_id, key: :author_id
   
   attribute :likes do

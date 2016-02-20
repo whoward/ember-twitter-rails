@@ -7,7 +7,7 @@ class TokensController < ApplicationController
       render json: {        
         access_token: user.id,
         token_type: 'token',
-        expires_in: null,
+        expires_in: nil,
         refresh_token: user.id
       }
     else
