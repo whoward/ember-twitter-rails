@@ -18,8 +18,6 @@ gem 'active_model_serializers', '0.10.0.rc4'
 
 gem 'rack-cors'
 
-gem 'rails_12factor'
-
 group :development, :test do
   gem 'pry-byebug'
 end
@@ -32,4 +30,8 @@ group :test do
 end
 
 group :development do
+end
+
+group :production do
+  gem 'rails_12factor'
 end
